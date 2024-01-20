@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 224, 226);
+  }
+
+  .container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .headSec,
+  .groupName,
+  .firstName,
+  .secondName,
+  .thirdName,
+  .description {
+    border: none;
+    margin: 30px;
+    width: 600px;
+  }
+  .headSec {
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    position: relative;
+  }
+
+  .groupName,
+  .firstName,
+  .secondName,
+  .thirdName,.description {
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+  
+  #group, #first, #second, #third, #desc {
+    padding: 15px 0 5px 0;
+   
+  }
+ 
+
+  .line{
+    border: 1px;
+    position: absolute;
+    top: 0.5px;
+    width: 637px;
+    left: 1px;
+    border-radius: 10px 10px 0 0;
+    height: 10px;
+    background-color: rgb(85, 85, 170);
+
+  }
+
+  button{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 170);
+    color: white;
+    font-weight: 300;  
+    margin-bottom: 30px;      
+  }
+  button:hover{
+    color:rgb(85, 85, 170);
+    background-color: white;
+    font-weight: 500;
+  }
+
+ 
+  input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black; /* Set the initial bottom border color */
+  outline: none; 
+  width: 100%;
+}
+
+input[type="text"]:focus {
+  border-bottom: 1px solid black; 
+}
